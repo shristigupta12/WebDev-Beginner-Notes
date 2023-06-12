@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color:coral;
+        }
+        .box{
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* animation-name: widthAnimate;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+            animation-direction: alternate-reverse; */
+
+            animation: widthAnimate 3s ease-in-out 1s 3 alternate-reverse;
+        }
+        @keyframes widthAnimate {
+            from{
+                width: 300px;
+            }
+            to{
+                width: 600px;
+            }
+            /*instead of using from and to we can use percentage as well like 0%*/
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is me</div>
+    </div>
+</body>
+</html>

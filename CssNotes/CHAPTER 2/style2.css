@@ -1,0 +1,17 @@
+.red{
+    background-color: rgb(0, 81, 255);
+    height: 50px;
+    color: white;
+}
+.green{
+    background: green;
+    color: white;
+}
+ *{
+    margin: 0;
+    padding: 0;
+} 
+/* Type of color values :
+    1. RGB - red green blue values like - rgb(200, 97, 70)
+    2. HEX code - color code using hex values like - #ff7180
+    3. HSL - Hue Saturation Lightness like - hsl(8%, 90%, 63%)*/

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Upper header */
+.upper{
+    display: flex;
+    background-color: black;
+    height: 77px;
+    width: 100vw;
+    justify-content: center;
+}
+.location, .Sign-in, .Returns, .Cart{
+    margin:  15px;
+    color: white;
+}
+#categories{
+    height: 35px;
+    width: 40px;
+    border: 2px solid rgb(224, 150, 12);
+}
+#flag{
+    height: 35px;
+    width: 40px;
+    margin: 8px 8px 8px 0;
+    border: 2px solid rgb(224, 150, 12);
+}
+nav input {
+    width: 45vw;
+    height: 35px;
+    margin: 8px 0 8px 0;
+    padding:0 8px;
+    border-radius: 4px;
+    border: 2px solid rgb(224, 150, 12);
+}
+nav input:hover, #categories:hover, #flag:hover{
+    border: 3px solid rgb(224, 150, 12);
+    border-radius: 4px;
+}
+/*select#flag option[value="flag"]{
+    background-image: url('flag.png');
+}*/
+.location:hover, .Sign-in:hover, .Returns:hover, .Cart:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+/* Lower header */
+.lower{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #12343C;
+    height: 40px;
+    width: 100vw;
+}
+.lElements{
+    color: white;
+    margin: 7px;
+}
+.lElements:hover{
+    cursor: pointer;
+    padding: 3px;
+    border: 1px solid white;
+}
+
+/*Main Content*/
+main{
+    min-height: calc(100vh - 10vh - 77px - 40px);
+    background-color: #dd8538;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+}
+.flex2{
+    display: flex;
+    width: 1400px;
+    height: 350px;
+    margin: 10px 10px 0 10px;
+}
+.flex2item{
+    margin: 10px;
+}
+/*Footer*/
+footer{
+    height: 10vh;
+    background-color:#12343C;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-style: oblique;
+}

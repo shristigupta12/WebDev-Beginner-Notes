@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 146px;
+        }
+        .box{
+            border: 2px solid black;
+        }
+        .img{ 
+            width: 146px;
+            transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+        }
+        .box:hover img{
+            width: 146px;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img  idsrc="https://source.unsplash.com/user/erondu/1600x900">
+            <button id="button">Toggle</button>
+        </div>
+    </div>
+</body>
+<script>
+     myImage.style.width = '146px'
+    button.addEventListener("click", ()=>{
+        if(myImage.style.width === '546px'){
+            myImage.style.width = '146px'
+        }
+        else if(myImage.style.width === '146px'){
+            myImage.style.width = '546px'
+        }       
+    })
+</script>
+</html>

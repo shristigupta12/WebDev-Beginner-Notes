@@ -1,0 +1,55 @@
+*****CHAPTER 1*****
+COLOR AND BORDERS :
+    background-color , color , border, heigth, width
+    .(class) , #(id)
+
+*****CHAPTER 2*****
+IMAGE AND BACKGROUND-IMAGE :
+    background-size
+    background : {color} {image} {repeat} {attatchment} {postition}
+
+*****CHAPTER 3*****
+BOX-SIZING MARGIN PADDING :
+    box-sizing 
+    margin/padding-top, right, bottom, left
+    border-width, border-style, border-color, border-radius
+
+*****CHAPTER 4*****
+DISPLAY, FONT & TEXT PROPERTIES, VISIBILITY :
+    display
+    visibility
+    font-family, font-size, font-weight, font-style
+    text-decoration, text-transform, line-height
+
+*****CHAPTER 5*****
+POSITION-PROPERTY, MIN-MAX HEIGHT, UNITS FOR RESPONSIVENESS :
+    position
+    min/max height/width
+    font-size: (x)em, rem
+    height/width: vh, vw, px
+
+*****CHAPTER 6*****
+FLEXBOX PROPERTIES ON CONTAINER, CONTENT AND ALIGNMENT : 
+    CONTAINER -> display: flex, flex-direction, flex-wrap
+    CONTENT   -> order, align-self, flex-grow, flex-shrink
+    justify-content, align-content, align-items, list-style
+
+*****CHAPTER 7*****
+GRID, MEDIA QUERIES FOR RESPONSIVENESS :
+    display: grid, grid-row/column-gap, grid-gap, grid-row/column, grid-template-columns/rows
+    @media screen and ((max-width: 800px)){ (box){}}
+
+*****CHAPTER 8*****
+TRANSFORMATION, TRANSITION, ANIMATION
+    transform, transform: rotateZ(45deg)
+    transition-property, transition-duration, transition-timing-function, button
+    animation: {name} {duration} {timing-function} {delay} {iteration-count} {direction}
+    @keyframes widthAnimate {
+                from{
+                    (width: 300px;)
+                }
+                to{
+                    (width: 600px;)
+                }
+                }
+                /*instead of using from and to we can use percentage as well like 0%*/
